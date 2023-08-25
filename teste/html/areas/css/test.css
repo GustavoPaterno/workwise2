@@ -158,7 +158,7 @@ h3 {
   color: white;
 }
 
-#question-2, #question-3, #question-4, #question-5, #question-6{
+#question-2, #question-3, #question-4, #question-5, #question-6, #question-7, #question-8, #question-9, #question-10, #question-11{
   display: none;
 }
 
@@ -238,4 +238,68 @@ h3 {
     font-size: 30px;
   }
 
+}
+
+.music{
+  display: none;
+}
+
+/*.music.expandir{
+  display: flex;
+}
+
+.inter{
+  display: none;
+}
+
+.inter.expandir{
+  display: flex;
+}
+
+.natural{
+  display: none;
+}
+
+.natural.expandir{
+  display: flex;
+}
+
+.ling{
+  display: none;
+}
+
+.ling.expandir{
+  display: flex;
+}
+
+.logic{
+  display: none;
+}
+
+.logic.expandir{
+  display: flex;
+}
+
+.corp{
+  display: none;
+}
+
+.corp.expandir{
+  display: flex;
+}
+
+.intra{
+  display: none;
+}
+
+.intra.expandir{
+  display: flex;
+}
+
+.espacial{
+  display: none;
+}
+
+.espacial.expandir {
+  display: flex;
 }

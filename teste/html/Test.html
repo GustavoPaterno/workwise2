@@ -11,8 +11,8 @@
   <title>teste</title>
   <meta name="description" content="Survey">
   <meta name="author" content="Luke Lehane">
-  <link rel="stylesheet" href="css\geral.css">
-  <link rel="stylesheet" href="css\test.css">
+  <link rel="stylesheet" href="areas\css\geral.css">
+  <link rel="stylesheet" href="areas\css\test.css">
   <link href="cadastro.html" />
   <link href="config.html" />
   <link href="login.html" />
@@ -53,15 +53,6 @@
         </button>
     </a>
 
-    <a href="melhoria.html">
-        <button class="bot">
-            <span class="bot_t">
-                <id class="material-symbols-outlined">person</id>
-                <span class="reduc">Melhorias</span>
-            </span>
-        </button>
-    </a>
-
     </nav>
     <script src="javaScript\base.js"></script>
 </aside>
@@ -69,80 +60,146 @@
   <div class="container">	
     <div class="row">
   	  <div class="two-thirds column">
-        <h2>{Nome}</h2>
+        <h2 class="titulo">WorkWise</h2>
 
   	  	<form class="questions_box">
 
   	  		<div id="question-1">
   	  		  <h2>Questão 1</h2>
-  	  			<h3>{Pergunta}</h3>
-                <span class="spano">{Resposta}</span>
-  	  			<input id="question-1-answer-a" type="radio" name="favelang" value=1><br>
-                    <span class="spano">{Resposta}</span>
-  				  <input id="question-1-answer-b" type="radio" name="favelang" value=2><br>
-                    <span class="spano">{Resposta}</span>
-  				  <input id="question-1-answer-c" type="radio" name="favelang" value=3><br>
+  	  			<h3>Você consegue identificar facilmente diferentes notas musicais quando as ouve?</h3>
+            <span class="spano">Discordo plenamente</span>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Discordo parcialmente</span>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Concordo parcialmente</span>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value="2"><br>
+            <span class="spano">Concordo plenamente</span>
+            <input id="question-1-answer-d" type="radio" name="favelang" value="3"><br>
   				  <div id="submit1" class="button">Enviar Resposta</div>
             <div class="clearfix"></div>
   			  </div>
 
   			 <div id="question-2">
   				 <h2>Questão 2</h2>
-  				 <h3>{Pergunta}</h3>
-                   <span class="spano">{Resposta}</span>
-  	  		 <input id="question-2-answer-a" type="radio" name="favelang" value="1"><br>
-                 <span class="spano">{Resposta}</span>
-  				 <input id="question-2-answer-b" type="radio" name="favelang" value="2"><br>
-                   <span class="spano">{Resposta}</span>
-  				 <input id="question-2-answer-c" type="radio" name="favelang" value="3"><br>
+  				 <h3>Você se sente à vontade ao interagir com uma variedade de pessoas em diferentes contextos sociais?</h3>
+           <span class="spano">Discordo plenamente</span>
+           <input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+           <span class="spano">Discordo parcialmente</span>
+           <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+           <span class="spano">Concordo parcialmente</span>
+           <input id="question-1-answer-c" type="radio" name="favelang" value="21"><br>
+           <span class="spano">Concordo plenamente</span>
+           <input id="question-1-answer-d" type="radio" name="favelang" value="31"><br>
   				 <div id="submit2" class="button">Enviar Resposta</div>
            <div class="clearfix"></div>
   			 </div>
   			
   			 <div id="question-3">	
   				 <h2>Questão 3</h2>
-  				 <h3>{Pergunta}</h3>
-                   <span class="spano">{Resposta}</span>
-  	  		 <input id="question-3-answer-a" type="radio" name="favelang" value="1"><br>
-                 <span class="spano"> {Resposta}</span>
-  				 <input id="question-3-answer-b" type="radio" name="favelang" value="2"><br>
-                   <span class="spano">{Resposta}</span>
-  				 <input id="question-3-answer-c" type="radio" name="favelang" value="3"><br>
+  				 <h3>Você sente uma forte conexão e apreciação pela natureza e pelo mundo natural?</h3>
+           <span class="spano">Discordo plenamente</span>
+           <input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+           <span class="spano">Discordo parcialmente</span>
+           <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+           <span class="spano">Concordo parcialmente</span>
+           <input id="question-1-answer-c" type="radio" name="favelang" value="211"><br>
+           <span class="spano">Concordo plenamente</span>
+           <input id="question-1-answer-d" type="radio" name="favelang" value="311"><br>
   				 <div id="submit3" class="button">Enviar Resposta</div>
            <div class="clearfix"></div>
   			 </div>
 
          <div id="question-4">
             <h2>Questão 4</h2>
-            <h3>{Pergunta}</h3>
-            <span class="spano">{Resposta}</span>
-            <input id="question-1-answer-a" type="radio" name="favelang" value="1"><br>
-            <span class="spano">{Resposta}</span>
-            <input id="question-1-answer-b" type="radio" name="favelang" value="2"><br>
-            <span class="spano">{Resposta}</span>
-            <input id="question-1-answer-c" type="radio" name="favelang" value="3"><br>
+            <h3>Você costuma gostar de ler livros, artigos e textos de diferentes gêneros e estilos?</h3>
+            <span class="spano">Discordo plenamente</span>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Discordo parcialmente</span>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Concordo parcialmente</span>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value="2111"><br>
+            <span class="spano">Concordo plenamente</span>
+            <input id="question-1-answer-d" type="radio" name="favelang" value="3111"><br>
             <div id="submit4" class="button">Enviar Resposta</div>
             <div class="clearfix"></div>
           </div>
 
           <div id="question-5">
             <h2>Questão 5</h2>
-            <h3>{Pergunta}</h3>
-            <span class="spano">{Resposta}</span>
-            <input id="question-1-answer-a" type="radio" name="favelang" value="1"><br>
-            <span class="spano">{Resposta}</span>
-            <input id="question-1-answer-b" type="radio" name="favelang" value="2"><br>
-            <span class="spano">{Resposta}</span>
-            <input id="question-1-answer-c" type="radio" name="favelang" value="3"><br>
+            <h3>Você gosta de resolver quebra-cabeças, problemas de lógica e desafios matemáticos?</h3>
+            <span class="spano">Discordo plenamente</span>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Discordo parcialmente</span>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Concordo parcialmente</span>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value="21111"><br>
+            <span class="spano">Concordo plenamente</span>
+            <input id="question-1-answer-d" type="radio" name="favelang" value="31111"><br>
             <div id="submit5" class="button">Enviar Resposta</div>
             <div class="clearfix"></div>
           </div>
 
-         <div id="question-6"> 
+          <div id="question-6">
+            <h2>Questão 6</h2>
+            <h3>Você aprende melhor quando pode realizar atividades práticas e manipular objetos?</h3>
+            <span class="spano">Discordo plenamente</span>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Discordo parcialmente</span>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Concordo parcialmente</span>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value="211111"><br>
+            <span class="spano">Concordo plenamente</span>
+            <input id="question-1-answer-d" type="radio" name="favelang" value="311111"><br>
+            <div id="submit6" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-7">
+            <h2>Questão 7</h2>
+            <h3>Você costuma passar tempo refletindo sobre seus próprios pensamentos, sentimentos e experiências?</h3>
+            <span class="spano">Discordo plenamente</span>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Discordo parcialmente</span>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Concordo parcialmente</span>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value="2111111"><br>
+            <span class="spano">Concordo plenamente</span>
+            <input id="question-1-answer-d" type="radio" name="favelang" value="3111111"><br>
+            <div id="submit7" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+          <div id="question-8">
+            <h2>Questão 8</h2>
+            <h3>Você tem facilidade em visualizar objetos e cenários em sua mente a partir de descrições verbais?</h3>
+            <span class="spano">Discordo plenamente</span>
+  	  			<input id="question-1-answer-a" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Discordo parcialmente</span>
+  				  <input id="question-1-answer-b" type="radio" name="favelang" value="0"><br>
+            <span class="spano">Concordo parcialmente</span>
+  				  <input id="question-1-answer-c" type="radio" name="favelang" value="21111111"><br>
+            <span class="spano">Concordo plenamente</span>
+            <input id="question-1-answer-d" type="radio" name="favelang" value="31111111"><br>
+            <div id="submit8" class="button">Enviar Resposta</div>
+            <div class="clearfix"></div>
+          </div>
+
+
+
+
+         <div id="question-9"> 
            <h3>Suas qualificações foram feitas para:</h3>
            <h1 id=printtotalscore></h1>
            <h1 id="printprofis"></h1>
-
+           <h5>Clique no botão abaixo para ser redirecionado a sua profissão mais</h5>
+          <a class="music" href="areas\musica.html">MUSICA</a>
+          <a class="inter" href="areas\inter.html">INTERPESSOAL</a>
+          <a class="natural" href="areas\natural.html">NATURALISTA</a>
+          <a class="ling" href="areas\ling.html">LINGUÍSTICO</a>
+          <a class="logic" href="areas\logic.html">LÓGICO MATEMÁTICO</a>
+          <a class="corp" href="areas\corp.html">CORPORAL E CINESTÉSICO</a>
+          <a class="intra" href="areas\intra.html">INTRAPESSOAL</a>
+          <a class="espacial" href="areas\espacial.html">ESPACIAL</a>
          </div>
 
 

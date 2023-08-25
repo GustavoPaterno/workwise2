@@ -159,7 +159,7 @@ body {
 
 }
 
-@media(width > 1520px) {
+@media(width < 2520px) {
     .main {
         position: relative;
         display: flex;
@@ -167,17 +167,22 @@ body {
         background-color: #EDEBE3;
         margin-left: 62px;
         border-left: 10px solid #EDEBE3;
-        margin-right: -10px;
+        margin-left: 18%;
         height: 100%;
         top: -1%;
         right: 5%;
         overflow: hidden;
         justify-content: center;
     }
+
+    .perfil{
+        margin-left: 60%;
+    }
+
+    .sidebar {
+        width: 720px;
+    }
 }
-
-
-
 
 @media(width < 920px) {
     .sidebar {
@@ -217,28 +222,6 @@ body {
         justify-content: center;
     }
 }
-
-
-@media(width < 520px) {
-    .main{
-        position: relative;
-        display: flex;
-        color: black;
-        background-color: #EDEBE3;
-        margin-left: 62px;
-        border-left: 10px solid #EDEBE3;
-        margin-right: -10px;
-        height: 100%;
-        top: -10px;
-        right: 25%;
-        overflow: hidden;
-        justify-content: center;
-    }
-
-
-
-}
-
 
 @media(width < 520px) {
     .main{
